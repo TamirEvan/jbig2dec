@@ -3,9 +3,6 @@ os: linux
 compiler:
         - gcc
         - clang
-install:
-        - sudo apt-get update
-        - sudo apt-get - install libpng-dev
 script:
         - ./autogen.sh
         - make
