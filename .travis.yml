@@ -1,0 +1,11 @@
+language: c
+os: linux
+compiler: gcc
+install:
+        - sudo apt-get update
+        - sudo apt-get - install libpng-dev
+script:
+        - ./autogen.sh
+        - make
+
+
