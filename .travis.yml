@@ -1,6 +1,8 @@
 language: c
 os: linux
-compiler: gcc
+compiler:
+        - gcc
+        - clang
 install:
         - sudo apt-get update
         - sudo apt-get - install libpng-dev
